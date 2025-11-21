@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.1.0">
+  <diagram name="第 1 页" id="3iNOBCWL4J3bTF4njObv">
+    <mxGraphModel dx="946" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-5" edge="1" parent="1" source="E48Ug_BmTUpDmroGHcbs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="E48Ug_BmTUpDmroGHcbs-2" value="produce">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="app:consumer" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="kafka topic:quickwit-oceanus&lt;div&gt;broker:kafka110-homer.hzpd.td:9092&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="340" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="quickwit:10.156.82.51&lt;div&gt;8c32g&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="351" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-7" edge="1" parent="1" source="E48Ug_BmTUpDmroGHcbs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="E48Ug_BmTUpDmroGHcbs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-9" connectable="0" parent="E48Ug_BmTUpDmroGHcbs-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="search" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="app:oceanus" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-6" edge="1" parent="1" source="E48Ug_BmTUpDmroGHcbs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.533;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="E48Ug_BmTUpDmroGHcbs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E48Ug_BmTUpDmroGHcbs-8" connectable="0" parent="E48Ug_BmTUpDmroGHcbs-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="consume" vertex="1">
+          <mxGeometry relative="1" x="0.0292" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
